@@ -1,0 +1,30 @@
+class test1;
+
+//include the transaction classes
+`include "elec_layer_tr.svh"
+//include the memory classes
+`include "env_cfg_class.svh"
+
+//include the generator classes
+`include "elec_layer_generator.sv"
+
+//include the driver classes
+`include "elec_layer_driver.sv"
+
+//include the monitor classes
+`include "elec_layer_monitor.sv"
+
+//include the agent classes
+`include "elec_layer_agent.sv"
+
+//include the scoreboard classes
+`include "elec_layer_scoreboard.sv"
+
+//include the virtual sequence classes
+`include "virtual_sequence.sv"
+
+//include the test environment classes
+`include "Testenv.sv"
+
+
+endclass: test1

@@ -1,0 +1,117 @@
+/*module dummy_module;
+    task automatic PRSC11(input bit [10:0] seed, input int size, output bit PRBS11_OUT[$]);
+ 
+        // Declare OLD_D10 and OLD_D8
+        bit OLD_D10;
+        bit OLD_D8;
+
+        // Declare rig_data and assign seed to it
+        bit [10:0] rig_data = seed;
+
+        // For loop with upper limit of iteration equal to the value of size input
+        for (int i = 0; i < size; i++)
+         begin
+            // Push rig_data[10] to PRBS11_OUT
+            PRBS11_OUT.push_back(rig_data[10]);
+
+        OLD_D10=rig_data[10];
+        OLD_D8=rig_data[8];
+
+        for (int k=10;k>0;k--) begin
+                 rig_data[k]=rig_data[k-1];
+        end
+        rig_data[0]=OLD_D10^OLD_D8;
+         end
+
+endtask: PRSC11
+
+
+
+task automatic reverse(input bit input_queue[$], output bit output_queue[$]);
+    int size = input_queue.size();
+    for (int i = 0; i < size; i++) begin
+        output_queue.push_front(input_queue[i]);
+    end
+endtask: 
+
+
+
+    initial 
+    begin
+ bit PRBS11_OUT[$];
+ PRBS11_OUT={};
+
+ PRSC11(11'b11111111111,'d100,PRBS11_OUT);
+
+    // Display the value of PRBS11_OUT
+    foreach(PRBS11_OUT[i]) begin
+        $write("%b", PRBS11_OUT[i]);
+    end
+    $display("");
+    end
+  
+endmodule
+*/
+/*
+class parent;
+endclass
+class child1 extends parent;
+task child1();
+$display("child1");
+endtask
+endclass
+class child2 extends parent;
+task child1();
+$display("child2");
+endtask
+endclass
+
+module dummy_module;
+task t1(parent p);
+child1 ch1;
+child2 ch2;
+if($cast(ch1,p)) 
+   c1.child1();
+if($cast(ch2,p))
+    c2.child1();
+endtask
+
+parent p=new();
+child1 c1=  new();
+child2 c2=  new();
+
+initial
+begin
+ t1(c1);
+    t1(c2);   
+end
+endmodule*/
+
+module names();
+  
+  
+  int b;
+  int c;
+  
+  mailbox #(int) mbx;
+  
+  initial 
+  begin
+    mbx = new();
+    mbx.put(1);
+  end
+  
+  initial 
+    begin
+      #10;
+      
+      mbx.get(b);
+      $display("b1=%d",b);
+      $display("b2=%d",b);
+      mbx.peek(c);
+      $display("b3=%d",b);
+      $display("c=%d",c);
+      
+    end
+  
+endmodule

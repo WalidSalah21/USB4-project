@@ -1,0 +1,587 @@
+{C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/crc_16.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/crc_16.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module crc_16
+
+Top level modules:
+	crc_16
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/control_fsm.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/control_fsm.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module control_fsm
+
+Top level modules:
+	control_fsm
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/clock_div.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/clock_div.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module clock_div
+
+Top level modules:
+	clock_div
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/pulse_sync_4bits_tb.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/pulse_sync_4bits_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module pulse_sync_4bits_tb
+
+Top level modules:
+	pulse_sync_4bits_tb
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/pulse_generator.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/pulse_generator.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module pulse_generator
+
+Top level modules:
+	pulse_generator
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/logical_layer.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/logical_layer.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module logical_layer
+
+Top level modules:
+	logical_layer
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/lane_distributer.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/lane_distributer.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module lane_distributer
+
+Top level modules:
+	lane_distributer
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/transactions_fsm.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/transactions_fsm.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module transactions_fsm
+
+Top level modules:
+	transactions_fsm
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/logical_layer_with_scr.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/logical_layer_with_scr.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module logical_layer_with_scr
+
+Top level modules:
+	logical_layer_with_scr
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv} {0 {vlog -work work -vopt -sv -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+** Error: ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(16)
+** at up_driver.sv(37): (vlog-2730) Undefined variable: 'transport_layer_data_in'.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(16)
+** at up_driver.sv(47): near ";": syntax error, unexpected ';', expecting '.' or '['.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(42)
+** at up_stimulus_generator.sv(34): near ",": syntax error, unexpected ','.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(42)
+** at up_stimulus_generator.sv(45): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(43)
+** at config_generator.sv(4): near "mb_gen_drv": syntax error, unexpected IDENTIFIER, expecting '\''.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(43)
+** at config_generator.sv(5): near "mb_gen_mod": syntax error, unexpected IDENTIFIER, expecting '\''.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(43)
+** at config_generator.sv(17): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(43)
+** at config_generator.sv(18): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(43)
+** at config_generator.sv(19): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(43)
+** at config_generator.sv(20): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(43)
+** at config_generator.sv(28): near "@": syntax error, unexpected '@'.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(43)
+** at config_generator.sv(32): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(43)
+** at config_generator.sv(33): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(43)
+** at config_generator.sv(43): near "@": syntax error, unexpected '@'.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(43)
+** at config_generator.sv(54): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(43)
+** at config_generator.sv(55): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(43)
+** at config_generator.sv(63): near "endtask": syntax error, unexpected endtask.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(43)
+** at config_generator.sv(67): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(43)
+** at config_generator.sv(69): near "endtask": syntax error, unexpected endtask.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(27): near "elec_mon_2_Sboard": syntax error, unexpected IDENTIFIER, expecting '\''.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(28): near "speed_mailbox": syntax error, unexpected IDENTIFIER, expecting '\''.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(34): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(35): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(36): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(37): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(38): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(39): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(59): (vlog-2164) Class or package 'electrical_layer_monitor' not found.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(84): near "begin": syntax error, unexpected begin.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(96): near "end": syntax error, unexpected end.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(104): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(105): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(106): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(107): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(108): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(109): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(111): near "end": syntax error, unexpected end.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(119): near "end": syntax error, unexpected end.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(128): near "begin": syntax error, unexpected begin.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(142): near "end": syntax error, unexpected end.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(151): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(152): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(153): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(154): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(155): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(156): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(158): near "end": syntax error, unexpected end.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(175): near "begin": syntax error, unexpected begin.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(188): near "end": syntax error, unexpected end.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(196): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(197): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(198): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(199): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(200): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(201): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(204): near "end": syntax error, unexpected end.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(215): near "begin": syntax error, unexpected begin.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(228): near "end": syntax error, unexpected end.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(236): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(237): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(238): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(239): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(240): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(241): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(245): near "end": syntax error, unexpected end.
+** Error: ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(257): (vlog-2164) Class or package 'electrical_layer_monitor' not found.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(265): near "begin": syntax error, unexpected begin.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(273): near "begin": syntax error, unexpected begin.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(281): near "end": syntax error, unexpected end.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(288): near "@": syntax error, unexpected '@'.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(289): near "begin": syntax error, unexpected begin.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(297): near "end": syntax error, unexpected end.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(310): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(311): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(312): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(313): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(314): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(315): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(317): near "end": syntax error, unexpected end.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(326): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(327): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(328): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(329): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(330): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(331): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(333): near "end": syntax error, unexpected end.
+** Error: ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(341): (vlog-2164) Class or package 'electrical_layer_monitor' not found.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(353): near "begin": syntax error, unexpected begin.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(369): near "begin": syntax error, unexpected begin.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(372): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(373): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(374): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(375): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(376): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(377): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(378): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(379): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(381): near "break": syntax error, unexpected "SystemVerilog keyword 'break'".
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(387): near "end": syntax error, unexpected end.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(412): near "end": syntax error, unexpected end.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(428): near "begin": syntax error, unexpected begin.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(431): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(432): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(433): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(434): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(435): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(436): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(437): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(438): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(440): near "break": syntax error, unexpected "SystemVerilog keyword 'break'".
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(446): near "end": syntax error, unexpected end.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(457): near "end": syntax error, unexpected end.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(466): near "=": syntax error, unexpected '=', expecting ++ or --.
+** Error: (vlog-13069) ** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(467): near "begin": syntax error, unexpected begin.
+** while parsing file included at C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/ai implmentation/Ai_top.sv(2)
+** while parsing file included at testbench.sv(46)
+** at elec_layer_monitor.svh(468): Verilog Compiler exiting
+
+} {3.0 4.0 6.0 7.0 9.0 10.0 12.0 13.0 15.0 16.0 18.0 19.0 21.0 22.0 24.0 25.0 27.0 28.0 30.0 31.0 33.0 34.0 36.0 37.0 39.0 40.0 42.0 43.0 45.0 46.0 48.0 49.0 51.0 52.0 54.0 55.0 57.0 58.0 60.0 61.0 63.0 64.0 66.0 67.0 69.0 70.0 72.0 73.0 75.0 76.0 78.0 79.0 81.0 82.0 84.0 85.0 87.0 88.0 90.0 91.0 93.0 94.0 96.0 97.0 99.0 100.0 102.0 103.0 105.0 106.0 108.0 109.0 111.0 112.0 114.0 115.0 117.0 118.0 120.0 121.0 123.0 124.0 126.0 127.0 129.0 130.0 132.0 133.0 135.0 136.0 138.0 139.0 141.0 142.0 144.0 145.0 147.0 148.0 150.0 151.0 153.0 154.0 156.0 157.0 159.0 160.0 162.0 163.0 165.0 166.0 168.0 169.0 171.0 172.0 174.0 175.0 177.0 178.0 180.0 181.0 183.0 184.0 186.0 187.0 189.0 190.0 192.0 193.0 195.0 196.0 198.0 199.0 201.0 202.0 204.0 205.0 207.0 208.0 210.0 211.0 213.0 214.0 216.0 217.0 219.0 220.0 222.0 223.0 225.0 226.0 228.0 229.0 231.0 232.0 234.0 235.0 237.0 238.0 240.0 241.0 243.0 244.0 246.0 247.0 249.0 250.0 252.0 253.0 255.0 256.0 258.0 259.0 261.0 262.0 264.0 265.0 267.0 268.0 270.0 271.0 273.0 274.0 276.0 277.0 279.0 280.0 282.0 283.0 285.0 286.0 288.0 289.0 291.0 292.0 294.0 295.0 297.0 298.0 300.0 301.0 303.0 304.0 306.0 307.0 309.0 310.0 312.0 313.0 315.0 316.0 318.0 319.0 321.0 322.0 324.0 325.0 327.0 328.0 330.0 331.0 333.0 334.0 336.0 337.0 339.0 340.0 342.0 343.0} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/transactions_gen_fsm.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/transactions_gen_fsm.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module transactions_gen_fsm
+
+Top level modules:
+	transactions_gen_fsm
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/serializer .v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/serializer .v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module serializer
+
+Top level modules:
+	serializer
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/data_bus .v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/data_bus .v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module data_bus
+
+Top level modules:
+	data_bus
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/sb_registers.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/sb_registers.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module sb_registers
+
+Top level modules:
+	sb_registers
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/data_bus_receive.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/data_bus_receive.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module data_bus_receive
+
+Top level modules:
+	data_bus_receive
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/scrambler_descrambler.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/scrambler_descrambler.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module scrambler_descrambler
+
+Top level modules:
+	scrambler_descrambler
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/pulse_sync_3bit.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/pulse_sync_3bit.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module pulse_sync_3bit
+
+Top level modules:
+	pulse_sync_3bit
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/crc_16_rec.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/crc_16_rec.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module crc_16_rec
+
+Top level modules:
+	crc_16_rec
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/timer.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/timer.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module timer
+
+Top level modules:
+	timer
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/lanes_ser_deser.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/lanes_ser_deser.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module lanes_ser_deser
+
+Top level modules:
+	lanes_ser_deser
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/sbtx_mux.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/sbtx_mux.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module sbtx_mux
+
+Top level modules:
+	sbtx_mux
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/pulse_sync_4bits.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/pulse_sync_4bits.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module pulse_sync_4bit
+
+Top level modules:
+	pulse_sync_4bit
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/pul_gen.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/pul_gen.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module pul_gen
+
+Top level modules:
+	pul_gen
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/logical_layer_no_scr.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/logical_layer_no_scr.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module logical_layer_no_scr
+
+Top level modules:
+	logical_layer_no_scr
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/decoding_block.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/decoding_block.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module decoding_block
+
+Top level modules:
+	decoding_block
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/scrambler.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/scrambler.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module scrambler
+
+Top level modules:
+	scrambler
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/pulse_sync_3bit_tb.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/pulse_sync_3bit_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module pulse_sync_3bit_tb
+
+Top level modules:
+	pulse_sync_3bit_tb
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/deserializer.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/deserializer.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module deserializer
+
+Top level modules:
+	deserializer
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/lanes_serializer .v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/lanes_serializer .v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module lanes_serializer
+
+Top level modules:
+	lanes_serializer
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/encoding_block.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/encoding_block.sv}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module encoding_block
+
+Top level modules:
+	encoding_block
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/descrambler.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/descrambler.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module descrambler
+
+Top level modules:
+	descrambler
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/data_bus_transmit.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/data_bus_transmit.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module data_bus_transmit
+
+Top level modules:
+	data_bus_transmit
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/pulse_sync.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/pulse_sync.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module pulse_sync
+
+Top level modules:
+	pulse_sync
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/ms_clock_div.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/ms_clock_div.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module ms_clock_div
+
+Top level modules:
+	ms_clock_div
+
+} {} {}} {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/lanes_deserializer .v} {1 {vlog -work work -vopt -stats=none {C:/Users/Wello/Desktop/material/GP/GP_code/GIT_USB4/USB4_Logical_layer/Dut files/lanes_deserializer .v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module lanes_deserializer
+
+Top level modules:
+	lanes_deserializer
+
+} {} {}}

@@ -1,0 +1,899 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Wello/Desktop/material/GP/AI_BAK
+T_opt
+!s110 1714910900
+Vk64V5FLW7dWnn7BBHAJJN0
+04 6 4 work Ai_top fast 0
+=10-a02bb836f9de-663776b3-32b-29d0
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1714667652
+V8YHNd[G^jXFl0JTnJ]Kf=3
+04 2 4 work tb fast 0
+=6-a02bb836f9de-6633c084-23e-3058
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1714912490
+VP8CmJ0KT0JjB34AhX]5?Q3
+04 4 4 work test fast 0
+=3-a02bb836f9de-66377cea-2c9-3200
+R1
+R2
+n@_opt2
+R3
+vAi_top
+Z4 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z5 DXx4 work 14 Ai_top_sv_unit 0 22 anc911lB9mkha3HY0oiMd2
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 :UoHShZJdY6_91G_fh8g<2
+IVl^70=Jfe2^gG^8B@>IF?1
+Z7 !s105 Ai_top_sv_unit
+S1
+Z8 dC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation
+Z9 w1714905679
+Z10 8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/Ai_top.sv
+Z11 FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/Ai_top.sv
+L0 12
+Z12 OL;L;10.7c;67
+31
+Z13 !s108 1714910896.000000
+Z14 !s107 electrical_layer_if.sv|upper_layer_if.sv|config_space_if.sv|TEST.sv|Env.svh|virtual_sequence.sv|config_scoreboard.sv|up_scoreboard.sv|elec_layer_scoreboard.svh|config_agent.sv|up_agent.sv|elec_layer_agent.svh|config_monitor.sv|up_monitor.sv|elec_layer_monitor.svh|config_generator.sv|up_stimulus_generator.sv|elec_layer_generator.svh|Reference_model_wrapper.sv|upper_reference.sv|elec_reference.sv|configuration_space_reference.sv|elec_layer_driver.svh|up_driver.sv|config_driver.sv|env_cfg_class.sv|upper_layer_tr.svh|config_space_pkg.sv|elec_layer_tr.svh|symbols.sv|testbench.sv|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/Ai_top.sv|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/Ai_top.sv|
+!i113 0
+Z16 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@ai_top
+XAi_top_sv_unit
+Z17 !s115 electrical_layer_if
+Z18 !s115 upper_layer_if
+Z19 !s115 config_space_if
+R4
+Vanc911lB9mkha3HY0oiMd2
+r1
+!s85 0
+!i10b 1
+!s100 _ZZP0K[o=hmXS10MjPe:11
+Ianc911lB9mkha3HY0oiMd2
+!i103 1
+S1
+R8
+w1714910883
+R10
+R11
+Z20 Ftestbench.sv
+Z21 Fsymbols.sv
+Z22 Felec_layer_tr.svh
+Z23 Fconfig_space_pkg.sv
+Z24 Fupper_layer_tr.svh
+Z25 Fenv_cfg_class.sv
+Z26 Fconfig_driver.sv
+Z27 Fup_driver.sv
+Z28 Felec_layer_driver.svh
+Z29 Fconfiguration_space_reference.sv
+Z30 Felec_reference.sv
+Z31 Fupper_reference.sv
+Z32 FReference_model_wrapper.sv
+Z33 Felec_layer_generator.svh
+Z34 Fup_stimulus_generator.sv
+Z35 Fconfig_generator.sv
+Z36 Felec_layer_monitor.svh
+Z37 Fup_monitor.sv
+Z38 Fconfig_monitor.sv
+Z39 Felec_layer_agent.svh
+Z40 Fup_agent.sv
+Z41 Fconfig_agent.sv
+Z42 Felec_layer_scoreboard.svh
+Z43 Fup_scoreboard.sv
+Z44 Fconfig_scoreboard.sv
+Z45 Fvirtual_sequence.sv
+Z46 FEnv.svh
+Z47 FTEST.sv
+Z48 Fconfig_space_if.sv
+Z49 Fupper_layer_if.sv
+Z50 Felectrical_layer_if.sv
+L0 1
+R12
+31
+R13
+R14
+R15
+!i113 0
+R16
+R2
+n@ai_top_sv_unit
+vbus_deserializer
+R4
+Z51 !s110 1714907210
+!i10b 1
+!s100 hW2dZ?feVg[SB7@@Q:YT:0
+I8b>a:?nON:HBj8ln@1F8M3
+R6
+!s105 bus_deserializer_sv_unit
+S1
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/bus_deserializer.sv
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/bus_deserializer.sv
+L0 3
+R12
+r1
+!s85 0
+31
+!s108 1714907209.000000
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/bus_deserializer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/bus_deserializer.sv|
+!i113 0
+R16
+R2
+vbus_serializer
+R4
+R51
+!i10b 1
+!s100 j35PaWETa[JU8g3:TMJlZ1
+I5E2PBc0E]NVg4;=GY4naT3
+R6
+!s105 bus_serializer_sv_unit
+S1
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/bus_serializer.sv
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/bus_serializer.sv
+L0 3
+R12
+r1
+!s85 0
+31
+Z52 !s108 1714907210.000000
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/bus_serializer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/bus_serializer.sv|
+!i113 0
+R16
+R2
+vclock_div
+R51
+!i10b 1
+!s100 ZSOj6]gbSzfYab0IMA1a63
+IdjY5SR;E6>XB]OAzZGkb^0
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/clock_div.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/clock_div.v
+L0 3
+R12
+r1
+!s85 0
+31
+R52
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/clock_div.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/clock_div.v|
+!i113 0
+Z53 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Yconfig_space_if
+R4
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 83dQGE1SeX=>^IoBf9U`l3
+ILg6_I3TocR8^z`O15lTFZ3
+R7
+S1
+R8
+R9
+8config_space_if.sv
+R48
+L0 1
+R12
+31
+R13
+R14
+R15
+!i113 0
+R16
+R2
+Xconfig_space_pkg_sv_unit
+R4
+Z54 !s110 1714585285
+!i10b 1
+!s100 DbA[L=C_oO7MU;Yb;LV7T3
+I9@WF<[J<QilNaKnN1T9AE3
+V9@WF<[J<QilNaKnN1T9AE3
+!i103 1
+S1
+Z55 dC:/Users/Wello/Desktop/material/GP/GP_code/GIT_Code/USB4_Logical_layer/ai implmentation
+Z56 w1714400723
+8C:/Users/Wello/Desktop/material/GP/GP_code/GIT_Code/USB4_Logical_layer/ai implmentation/config_space_pkg.sv
+FC:/Users/Wello/Desktop/material/GP/GP_code/GIT_Code/USB4_Logical_layer/ai implmentation/config_space_pkg.sv
+L0 1
+R12
+r1
+!s85 0
+31
+Z57 !s108 1714585285.000000
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/GIT_Code/USB4_Logical_layer/ai implmentation/config_space_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/GIT_Code/USB4_Logical_layer/ai implmentation/config_space_pkg.sv|
+!i113 0
+R16
+R2
+vcontrol_fsm
+R51
+!i10b 1
+!s100 YSSV68@2=[UDi>gaAS_kD1
+I[`RJ@fbE`3J[F^<z;8d^U1
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/control_fsm.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/control_fsm.v
+L0 9
+R12
+r1
+!s85 0
+31
+R52
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/control_fsm.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/control_fsm.v|
+!i113 0
+R53
+R2
+vcrc_16
+R51
+!i10b 1
+!s100 7R^]SCSWJgZh5><;bLff;0
+I^eFf=INZGF^a9:OfN8dQU0
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/crc_16.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/crc_16.v
+L0 3
+R12
+r1
+!s85 0
+31
+R52
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/crc_16.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/crc_16.v|
+!i113 0
+R53
+R2
+vcrc_16_rec
+R51
+!i10b 1
+!s100 ^TPh:_XFn2<;NV4N=RHQZ0
+I38F6L0KY4OmV2[R=IKd>C1
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/crc_16_rec.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/crc_16_rec.v
+L0 3
+R12
+r1
+!s85 0
+31
+R52
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/crc_16_rec.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/crc_16_rec.v|
+!i113 0
+R53
+R2
+vdata_bus
+R51
+!i10b 1
+!s100 37eReNWlTn4aiomB3ZV653
+I74I6hLD]BSRCmha@C>i992
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/data_bus .v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/data_bus .v
+L0 3
+R12
+r1
+!s85 0
+31
+R52
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/data_bus .v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/data_bus .v|
+!i113 0
+R53
+R2
+vdata_bus_receive
+R4
+R51
+!i10b 1
+!s100 IUoe:39e9SWzJiaQ?Y36O0
+IgkX?8>0OY:A09b4h3N?7G2
+R6
+!s105 data_bus_receive_sv_unit
+S1
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/data_bus_receive.sv
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/data_bus_receive.sv
+L0 3
+R12
+r1
+!s85 0
+31
+R52
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/data_bus_receive.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/data_bus_receive.sv|
+!i113 0
+R16
+R2
+vdata_bus_transmit
+R4
+R51
+!i10b 1
+!s100 k;BEd_26jl2U:eaZXc:0T0
+IeMi3_SB6lJNnghMoI[gR33
+R6
+!s105 data_bus_transmit_sv_unit
+S1
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/data_bus_transmit.sv
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/data_bus_transmit.sv
+L0 3
+R12
+r1
+!s85 0
+31
+R52
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/data_bus_transmit.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/data_bus_transmit.sv|
+!i113 0
+R16
+R2
+vdecoding_block
+R51
+!i10b 1
+!s100 32lH?[]FXHXf`3mmB@mLc2
+I?BYaPhPPLYXc5gi=]Z_0G0
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/decoder.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/decoder.v
+L0 2
+R12
+r1
+!s85 0
+31
+R52
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/decoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/decoder.v|
+!i113 0
+R53
+R2
+vdescrambler
+R51
+!i10b 1
+!s100 A[`:JWZQBeK0VD`OGd9To3
+I1I<oKdjD1z_T6k[:>^H;e2
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/descrambler.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/descrambler.v
+L0 3
+R12
+r1
+!s85 0
+31
+R52
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/descrambler.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/descrambler.v|
+!i113 0
+R53
+R2
+vdeserializer
+R4
+Z58 !s110 1714907211
+!i10b 1
+!s100 C`k^VPAD?9zZa=6ohNe9G2
+I1mL77c;b7?^e9l;PHCYnM1
+R6
+!s105 deserializer_sv_unit
+S1
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/deserializer.sv
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/deserializer.sv
+L0 3
+R12
+r1
+!s85 0
+31
+R52
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/deserializer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/deserializer.sv|
+!i113 0
+R16
+R2
+vdummy_tb
+R4
+DXx4 work 23 test_dummy_file_sv_unit 0 22 >BKU_5;9KP63j]8S@42o[2
+R6
+r1
+!s85 0
+!i10b 1
+!s100 ?oE2non>B_Qjd_65B3[Nd3
+I10FeMm:>[6e70TG3TXd8m1
+Z59 !s105 test_dummy_file_sv_unit
+S1
+R55
+Z60 w1714649478
+Z61 8C:/Users/Wello/Desktop/material/GP/GP_code/GIT_Code/USB4_Logical_layer/ai implmentation/test_dummy_file.sv
+Z62 FC:/Users/Wello/Desktop/material/GP/GP_code/GIT_Code/USB4_Logical_layer/ai implmentation/test_dummy_file.sv
+L0 17
+R12
+31
+Z63 !s108 1714660891.000000
+Z64 !s107 C:/Users/Wello/Desktop/material/GP/GP_code/GIT_Code/USB4_Logical_layer/ai implmentation/test_dummy_file.sv|
+Z65 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/GIT_Code/USB4_Logical_layer/ai implmentation/test_dummy_file.sv|
+!i113 0
+R16
+R2
+Xelec_layer_tr_svh_unit
+R4
+R54
+!i10b 1
+!s100 G]OYK<jl8BXld=0YMHCLi0
+II1Uc@A5@;32YK^2czHPX^3
+VI1Uc@A5@;32YK^2czHPX^3
+!i103 1
+S1
+R55
+R56
+8C:/Users/Wello/Desktop/material/GP/GP_code/GIT_Code/USB4_Logical_layer/ai implmentation/elec_layer_tr.svh
+FC:/Users/Wello/Desktop/material/GP/GP_code/GIT_Code/USB4_Logical_layer/ai implmentation/elec_layer_tr.svh
+L0 1
+R12
+r1
+!s85 0
+31
+R57
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/GIT_Code/USB4_Logical_layer/ai implmentation/elec_layer_tr.svh|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/GIT_Code/USB4_Logical_layer/ai implmentation/elec_layer_tr.svh|
+!i113 0
+R16
+R2
+Yelectrical_layer_if
+R4
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 0_2[g2m=>6KLXI;<XeIl>1
+ICjUB0MI]?4J0SG8b^<bTM1
+R7
+S1
+R8
+R9
+8electrical_layer_if.sv
+R50
+L0 1
+R12
+31
+R13
+R14
+R15
+!i113 0
+R16
+R2
+vencoding_block
+R58
+!i10b 1
+!s100 R<liVA>KW_F4I:;cjC;1^3
+IQRlabf_7G>f8YYNXN<lJT2
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/encoding.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/encoding.v
+L0 2
+R12
+r1
+!s85 0
+31
+Z66 !s108 1714907211.000000
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/encoding.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/encoding.v|
+!i113 0
+R53
+R2
+vlane_distributer
+R58
+!i10b 1
+!s100 jZzClL>OZSE[hcOV8_8]]0
+IT`MelMBe0oo9Z?]7j5A3c2
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/lane_distributer.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/lane_distributer.v
+L0 9
+R12
+r1
+!s85 0
+31
+R66
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/lane_distributer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/lane_distributer.v|
+!i113 0
+R53
+R2
+vlanes_deserializer
+R58
+!i10b 1
+!s100 ^V^NWibRe_::6BdODLohK2
+I[goc9HFcjL0JkkiT7>I:H1
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/lanes_deserializer.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/lanes_deserializer.v
+L0 3
+R12
+r1
+!s85 0
+31
+R66
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/lanes_deserializer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/lanes_deserializer.v|
+!i113 0
+R53
+R2
+vlanes_ser_deser
+R4
+R58
+!i10b 1
+!s100 `6gFRiBJBbKW^2K>KQ?J=2
+I;m[DjgjeBRcBn]eHT[:0G1
+R6
+!s105 lanes_ser_deser_sv_unit
+S1
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/lanes_ser_deser.sv
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/lanes_ser_deser.sv
+L0 3
+R12
+r1
+!s85 0
+31
+R66
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/lanes_ser_deser.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/lanes_ser_deser.sv|
+!i113 0
+R16
+R2
+vlanes_serializer
+R58
+!i10b 1
+!s100 Z5c:WR9n8D:BDJ]lUKHS92
+Im5DYnmb`2_d8^C9YAGT1G3
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/lanes_serializer.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/lanes_serializer.v
+L0 3
+R12
+r1
+!s85 0
+31
+R66
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/lanes_serializer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/lanes_serializer.v|
+!i113 0
+R53
+R2
+vlogical_layer
+R58
+!i10b 1
+!s100 DaA5EY^YSM9fTDmMJfAmK0
+IR;`MJWK7d_kjoaMO64?j41
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/logical_layer.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/logical_layer.v
+L0 11
+R12
+r1
+!s85 0
+31
+R66
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/logical_layer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/logical_layer.v|
+!i113 0
+R53
+R2
+vprbs11_g4_send
+R58
+!i10b 1
+!s100 zdLkDRYl8Lb^A_02PAEYQ2
+ILbRSOQkA[JW?oLZd9PU7L0
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/prbs11_g4_send.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/prbs11_g4_send.v
+L0 3
+R12
+r1
+!s85 0
+31
+R66
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/prbs11_g4_send.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/prbs11_g4_send.v|
+!i113 0
+R53
+R2
+vprbs11_rec
+R58
+!i10b 1
+!s100 @NbYBcBP22E;Zo]o[6>QZ3
+IlD3`zB<@ToQ:LRJP[dFWk3
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/prbs11_rec.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/prbs11_rec.v
+L0 3
+R12
+r1
+!s85 0
+31
+R66
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/prbs11_rec.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/prbs11_rec.v|
+!i113 0
+R53
+R2
+vprbs11_rec_g4
+R58
+!i10b 1
+!s100 X9EEC;i64Zo:dHYWH_8N_3
+IUR4Yn_nn=DI@>kZLK4U[40
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/prbs11_rec_g4.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/prbs11_rec_g4.v
+L0 3
+R12
+r1
+!s85 0
+31
+R66
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/prbs11_rec_g4.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/prbs11_rec_g4.v|
+!i113 0
+R53
+R2
+vpul_gen
+R58
+!i10b 1
+!s100 =n7Tg2djgFL^knN=eE4oW0
+Ii<US8YlRl;J:MMkPH7:VJ1
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/pul_gen.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/pul_gen.v
+L0 9
+R12
+r1
+!s85 0
+31
+R66
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/pul_gen.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/pul_gen.v|
+!i113 0
+R53
+R2
+vpulse_generator
+Z67 !s110 1714907212
+!i10b 1
+!s100 Gz8l10GI35n]k;N9jie343
+Ih_[dQD1FCLeiY6Ikbg80=3
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/pulse_generator.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/pulse_generator.v
+L0 9
+R12
+r1
+!s85 0
+31
+Z68 !s108 1714907212.000000
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/pulse_generator.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/pulse_generator.v|
+!i113 0
+R53
+R2
+vpulse_sync
+R67
+!i10b 1
+!s100 iG1N69:RZ?F_RTRDN<_`V0
+IhV_SHGSYMZ>5;A^zNF@AD3
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/pulse_sync.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/pulse_sync.v
+L0 9
+R12
+r1
+!s85 0
+31
+R68
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/pulse_sync.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/pulse_sync.v|
+!i113 0
+R53
+R2
+vpulse_sync_3bit
+R67
+!i10b 1
+!s100 o<KHeN:5mFNUjo;l_JJ;d1
+IhVU8IkGO<DaR3QaMb5nBi2
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/pulse_sync_3bit.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/pulse_sync_3bit.v
+L0 9
+R12
+r1
+!s85 0
+31
+R68
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/pulse_sync_3bit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/pulse_sync_3bit.v|
+!i113 0
+R53
+R2
+vsb_registers
+R67
+!i10b 1
+!s100 clIgRQh:DnS_?I9MD^`2^0
+IRI@iBkMiZiRHl1K4:Zmb02
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/sb_registers.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/sb_registers.v
+L0 3
+R12
+r1
+!s85 0
+31
+R68
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/sb_registers.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/sb_registers.v|
+!i113 0
+R53
+R2
+vsbtx_mux
+R67
+!i10b 1
+!s100 >[L:=Y8>Q8``Rd3zVA_TU1
+IZom;=S^BeZSPc@6AgNJ`D0
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/sbtx_mux.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/sbtx_mux.v
+L0 7
+R12
+r1
+!s85 0
+31
+R68
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/sbtx_mux.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/sbtx_mux.v|
+!i113 0
+R53
+R2
+vscrambler
+R67
+!i10b 1
+!s100 4YPK85Wc6k=F4D;GA41nD3
+Il;`IQfbX<^PNJPf6jeW9z0
+R6
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/scrambler.v
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/scrambler.v
+L0 3
+R12
+r1
+!s85 0
+31
+R68
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/scrambler.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/scrambler.v|
+!i113 0
+R53
+R2
+vserializer
+R4
+R67
+!i10b 1
+!s100 z?Xo9fBZQ_N<_c6gkNmE00
+I[n;f<HzaUJQY?[aI;CQhl0
+R6
+!s105 serializer_sv_unit
+S1
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/serializer.sv
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/serializer.sv
+L0 3
+R12
+r1
+!s85 0
+31
+R68
+!s107 C:/Users/C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/scrambler.v
+L0 3
+R12
+r1
+!s85 0
+31
+R68
+!s107 C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/scrambler.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/scrambler.v|
+!i113 0
+R53
+R2
+vserializer
+R4
+R67
+!i10b 1
+!s100 z?Xo9fBZQ_N<_c6gkNmE00
+I[n;f<HzaUJQY?[aI;CQhl0
+R6
+!s105 serializer_sv_unit
+S1
+R8
+R9
+8C:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/serializer.sv
+FC:/Users/Wello/Desktop/material/GP/GP_code/project/USB4_Logical_layer/ai implmentation/dut files/serializer.sv
+L0 3
+R12
+r1
+!s85 0
+31
+R68
+!s107 C:/Users/Wello/Desktop/material/G
